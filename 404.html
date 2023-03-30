@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="76x76" href="./apple-touch-icon.png">
     <link rel="icon" href="<%= BASE_URL %>favicon.png">
-    <title>Rayo Vicareño FC</title>
+    <title>Ups</title>
   </head>
-  <body>
-    <div class="container h-100" style="background-color: #cd1f2c;">
-      <img src="./anueltransparente.png"
+  <body class="d-flex flex-column h-100">
+    <div class="col" style="background-color: #cd1f2c;">
+      <img src="./anueltransparente.png" style="top: 40vh; height: 60vh; width: 60vh;">
+    </div>
+    <div class="col">
+      <h1 style="color: #ffffff; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Te has equivocado de enlace</h1>
     </div>
 
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
   </body>
 </html>
